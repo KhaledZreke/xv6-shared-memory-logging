@@ -11,6 +11,4 @@ Features:
 Technologies:
 C, xv6 Operating System, virtual memory, system calls, concurrency
 
-How to run:
-make qemu
-(run shmem_test and log_test inside xv6)
+
