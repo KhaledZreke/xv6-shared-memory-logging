@@ -1,0 +1,16 @@
+Shared Memory Logging in xv6
+
+This project extends the xv6 operating system with page-based shared memory between processes and a multi-process logging system using atomic operations.
+
+Features:
+- Kernel support for mapping shared physical pages between processes
+- Custom system calls for shared memory management
+- Safe multi-process logging using atomic compare-and-swap
+- Userspace test programs demonstrating correctness
+
+Technologies:
+C, xv6 Operating System, virtual memory, system calls, concurrency
+
+How to run:
+make qemu
+(run shmem_test and log_test inside xv6)
